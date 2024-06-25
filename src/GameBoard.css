@@ -1,0 +1,34 @@
+/* GameBoard.css */
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .game-board {
+    display: inline-block;
+    border: 2px solid black;
+  }
+  
+  .row {
+    display: flex;
+  }
+  
+  .cell {
+    width: 30px;
+    height: 30px;
+    border: 1px solid lightgrey;
+  }
+  
+  .snake {
+    background-color: green;
+  }
+  
+  .food {
+    background-color: red;
+  }
+  
